@@ -54,7 +54,7 @@ func main() {
 		host = "127.0.0.1"
 	}
 	if httpPort == "" {
-		httpPort = "80"
+		httpPort = "8080"
 	}
 
 	// ensure upload dir
@@ -328,3 +328,4 @@ func cleanupTmpLoop() {
 		time.Sleep(1 * time.Hour)
 	}
 }
+
